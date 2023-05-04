@@ -1,0 +1,189 @@
+body {
+	box-sizing: border-box;
+	background: linear-gradient(#3A1078, #4E31AA, #3795BD);
+	font-family: "Sono", sans-serif;
+}
+
+header{
+	background: #050505;
+}
+
+
+.logo {
+	height: 5%;
+	width: 5%;
+	display:inline;
+	vertical-align: middle;
+}
+
+h1 {
+	display: inline;
+	font-size: 36px;
+	color: lightskyblue;
+	text-decoration: blink;
+	text-align: center;
+}
+
+nav {
+	position: absolute;
+	right: 10%;
+	top: 2.5%;
+}
+
+a {
+	font-size: 36px;
+	padding: 10px;
+	margin: 10px;
+	color: lightskyblue;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.menu a {
+	display: inline-block;
+	margin: 10px;
+	margin-left: 5%;
+
+	font-size: 36px;
+}
+
+.banner {
+	height: 500px;
+	width: 100%;
+}
+
+.apresentacao {
+	padding: 25px;
+	display: block;
+}
+
+h2 {
+	font-size: 3rem;
+	text-align: center;
+	display: block;
+	margin: 60px 0;
+}
+
+p {
+	font-size: 2rem;
+	padding: 10px;
+	margin: 10px;
+	color: lightskyblue;
+	text-align: center;
+	display: block;
+}
+
+.estilos {
+	background: lightgrey;
+	width: 80%;
+	height: 50rem;
+	margin: 80px auto;
+}
+
+.apresentacao-estilos {
+	color: darkmagenta;
+	text-align: left;
+	font-size: 2rem;
+	margin: 10px;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+li {
+	display: block;
+	color: darkmagenta;
+	font-size: 30px;
+	text-align: center;
+	padding: 30px;
+	width: 20%;
+	height: 15rem;
+}
+
+
+.imglista {
+	height: 100%;
+	width: 100%;
+	margin: 60px 0px 30px 0px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+li:hover img {
+	transform: scale(1.2);
+}
+
+.gif-alto {
+	width: 30rem;
+	display: block;
+	margin: 8rem auto;
+}
+
+.rodape {
+	padding: 10rem 0;
+	height: 200px;
+	width: 100%;
+	background:#050505;
+}
+
+.logo-rodape {
+	height: 15rem;
+	width: 15rem;
+	display: block;
+	margin: auto;
+}
+
+.copyright-rodape {
+	text-align: center;
+	margin: 0.5rem;
+}
+
+.texto-rodape{
+	color: antiquewhite;
+	font-family: calibri light;
+	font-size: 1.6rem;
+	margin: 5px;
+	padding: 0;
+	display: inline;
+}
+
+.bandeira-libertaria {
+	vertical-align: text-top;
+	width: 1.2rem;
+	display: inline;
+}
+
+@media screen and (max-width: 800px) {
+	
+	.estilos {
+		width: 90%;
+		height: 100%;
+		margin: 0 auto;
+		background: darkgrey;
+	}
+
+	ul {
+		flex-direction: column;
+		box-sizing: border-box;
+	}
+
+	ul li {
+		width: 90%;
+		height: auto;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	.imglista {
+		margin: 0.3rem auto 1.5rem auto;
+	}
+	.gif-alto { 
+	width:90% 
+	}
+}
